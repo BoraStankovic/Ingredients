@@ -2,23 +2,16 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
 
-html, body {
-	text-align: center;
-	margin: 68px 31px 34px 30px;
-	background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
-	border-radius: 10px;
-}
 
 header {
 	margin-bottom: 10px;
 }
 
-h1 {		
+.title {		
 	font-family: 'Amatic SC', cursive;
 	font-style: normal;
 	font-weight: 700;
@@ -26,6 +19,7 @@ h1 {
 	line-height: 50px;
 	color: #F47645;
 	margin-bottom: 6px;
+	text-align: center;
 }
 
 h2 {
@@ -40,18 +34,26 @@ h2 {
 ul { 
 	text-align: left;
 	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px 10px;
+}
+
+main, header {
+	padding: 0 30px;
+}
+
+header {
+	text-align: center;
 }
 
 li {
-	text-align: center;
-	display: list-item;
-	float: left;
-	width: 20%;
-	margin-right: 4%;
-	margin-bottom: 10px;
 	background-color: #F9AD8DB8;
 	font-family: Inter;
 	font-style: Regular;
 	color: #F47645;
 	border-radius: 6px;
+	padding: 3px 6px;
+	width: 70px;
+	text-align: center;
 }
